@@ -1,0 +1,463 @@
+@font-face {
+
+    font-family:Almarai;
+    src: url(../fonts/Almarai-Regular.ttf);
+}
+
+body {
+   
+    /*direction: ltr !important;*/
+    text-align: left !important;
+  
+}
+.body-content-wrapper {
+
+  direction: ltr !important;
+
+}
+
+.line-2{
+
+    float:right !important;
+
+}
+p {
+  
+    line-height: 30px;
+}
+/*--scroll--*/
+/*#ascrail2000 {
+    right: unset !important;
+    left: 0 !important;
+   
+}*/
+/*--//scroll--*/
+/*--owl carousel--*/
+.owl-carousel{
+
+    direction: ltr !important;
+  
+}
+/*--//owl carousel--*/
+/*--top header--*/
+.top-header .top-nav-left {
+    float: right !important;
+    /*margin-right: 10px;*/
+}
+.top-header .top-nav-left li a i {
+  
+    margin-left:0 !important;
+    margin-right: 5px !important;
+}
+.top-header .top-nav-left ul li a:before {
+    
+    right: 0;
+    left:inherit;
+
+}  
+.sub-menu {
+
+    left:auto; 
+    right:unset; 
+
+}
+.sub-menu::before {
+   
+    left: 15px;
+    right:unset !important;
+    
+}
+
+.sub-menu li a{
+    padding-right: 0 !important;
+    padding-left: 3px !important;
+    
+}
+.sub-menu li a:hover{
+    padding-right: 0 !important;
+    padding-left: 12px !important;
+    
+}
+/*--//top header--*/
+/*--main header--*/
+.navbar-toggler {
+ 
+    padding: 1.2rem .65rem !important;
+}
+.navbar-light .navbar-nav .nav-item:nth-child(4) .sub-menu {
+
+    width: 290px !important;
+
+}
+.navbar-light .navbar-nav>.nav-item>.nav-link {
+    margin: 0 0.7rem;
+}
+/*.navbar-light .res-navbar li a .main-icon {
+    float: right !important;
+}*/
+.navbar-light .navbar-nav .nav-item .sub-menu li a {
+
+
+    margin-right:unset !important;
+    margin-left: 0;
+
+
+}
+
+.navbar-light .navbar-nav .nav-item .sub-menu li:hover a {
+    
+    margin-left: 10px;
+
+}
+.navbar-light .navbar-nav .nav-item .collapse{
+
+    margin-right:0 !important;
+    margin-left: 20px;
+
+}
+/*--//main header--*/
+/*--//header--*/
+/*--footer--*/
+footer .footer-top .phone a i {
+
+     margin-left: 0 !important;
+     margin-right: 15px;
+
+}
+/*--//footer--*/
+/***************************************---Home Page---***********************************************************/
+/*--bk image--*/
+
+.bk-image-sec{
+
+    background: url(../images/system-31.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+.bk-image-sec::before {
+    
+    left: -20%;
+   
+}
+.bk-image-sec .content .text h2 {
+    font-size: 46px;
+    width: 43%;
+}
+.shape:nth-child(1) {
+   
+    right: 45%;
+    top: 50%;
+}
+
+.shape:nth-child(3) {
+
+    left: 25% !important;
+   
+}
+.shape:nth-child(4) {
+  
+    left: unset !important; 
+    right: 15%;
+    
+    
+}
+.shape:nth-child(5) {
+  
+    left: 30% !important;
+  
+}
+/*--//bk image--*/
+/*--features--*/
+
+.features-sec .col-lg-3::after {
+   
+    border-bottom: 160px solid transparent;
+}
+.features-sec .col-lg-3:nth-child(1)::after {
+    
+    
+    border-left: 1720px solid #4689a8;
+    border-right:unset !important;
+
+}
+.features-sec .col-lg-3:nth-child(1):hover::after {
+
+    border-right-color:unset !important;
+    border-left-color:#4ca7d1 !important;
+
+}
+.features-sec .col-lg-3:nth-child(1):hover::after {
+
+    border-right-color:#4ca7d1 !important;
+
+}
+.features-sec .col-lg-3:nth-child(2):after {
+
+    right: 0;
+    left: unset !important;
+    border-right: 1720px solid #6dbee0;
+    border-left: unset !important;
+}
+.features-sec .col-lg-3:nth-child(2):hover:after {
+
+  
+    border-left-color:unset !important;
+    border-right-color:#4cafdd !important;
+
+}
+
+.features-sec .col-lg-3:nth-child(3):after {
+   
+    left: 0;
+    right: 0;
+    border-left: 1720px solid #5998b3;
+    border-right:unset !important;
+   
+}
+.features-sec .col-lg-3:nth-child(3):hover:after {
+
+  
+    border-right-color:unset !important;
+    border-left-color:#60a7c5 !important;
+
+}
+
+.features-sec .col-lg-3:nth-child(4):after {
+
+    right: 0;
+    left: unset !important;
+    border-right: 1720px solid #54b7e6;
+    border-left:unset !important;
+
+
+}
+.features-sec .col-lg-3:nth-child(4):hover:after {
+
+    border-right-color:#83d0f5 !important;
+    border-left-color:unset !important;
+
+}
+.features-sec .col-lg-3:nth-child(5):after {
+   
+    left: 0;
+    right: 0;
+    border-left: 1720px solid #5998b3;
+    border-right:unset !important;
+   
+}
+.features-sec .col-lg-3:nth-child(5):hover:after {
+
+  
+    border-right-color:unset !important;
+    border-left-color:#60a7c5 !important;
+
+}
+/*--//features--*/
+/*--about--*/
+.about-sec::before {
+    background-position: left bottom;
+   
+}
+.about-sec .head {
+    text-align: left !important;
+}
+.about-sec .head::before {
+    right: unset !important;
+    left:55px !important;
+}
+.about-sec .head h3::before, .about-sec .head h3::after {
+    left: 0 !important;
+    right: unset !important;
+}
+
+.about-sec ul li span,
+.system-program-sec .list ul li span ,
+.contact-us-sec .partners-content .p-info ul li span{
+    float: left;
+    margin-right: 6px !important;
+    margin-left: 0 !important;
+}
+
+.about-sec ul li:hover a,
+.system-program-sec .list ul li:hover a,
+.contact-us-sec .partners-content .p-info ul li:hover a{
+    transform: translateX(7px) !important;
+}
+.about-sec ul li span i,
+.system-program-sec .list ul li span i, 
+.contact-us-sec .partners-content .p-info ul li span i {
+   
+    margin-left:0;
+    margin-right: 7px;
+}
+/*--//about--*/
+/*--count--*/
+.count-sec .col-lg-6:first-child{  
+
+    background-image: url(../images/system-7-en.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /*background-position: right;*/
+    background-position: bottom;
+    width:100%;
+    /*height:60vh;*/
+
+}
+.count-sec .content::before {
+
+
+    right:0;
+    left: -150px;
+    padding-right: 3px;
+
+}
+
+.count-sec .content::after {
+    border-right: 133px solid #4d92af;
+    border-left:unset !important;
+    right:unset !important;
+    left: -133px !important
+}
+/*--//count--*/
+/***************************************---//Home Page---***********************************************************/
+/***************************************---About Page---***********************************************************/
+.about-pg-sec .head {
+    text-align: center !important;
+}
+.about-pg-sec .head::before {
+    left: 0 !important;
+    right: 0  !important;
+}
+.about-pg-sec .head h3::before, .about-pg-sec .head h3::after {
+    left: 0 !important;
+    right: 0 !important;
+}
+.about-pg-sec .pg-1::before {
+    
+    background-position: left bottom;
+    
+}
+.about-pg-sec .pg-3::before {
+    /*background-position: left bottom;*/
+     background-position: left;
+}
+
+/***************************************---//About Page---***********************************************************/
+/***************************************---System Build Components Page---********************************************/
+
+.system-build-sec .content .icon {
+   
+    left: 0;
+    right: unset !important;
+    margin-right:0 !important;
+    margin-left: 20px;
+
+}
+.system-build-sec .content .image::before{
+
+    content: '';
+    position: absolute;
+    left: 1px;
+    bottom: -11px;
+    width: 26%;
+    height: 25px;
+    transform: rotate(-13deg);
+
+
+}
+.system-build-sec .content .image:after {
+   
+
+    content: '';
+    position: absolute;
+    right: 0px;
+    bottom: -13px;
+    width: 76%;
+    height: 25px;
+   transform: rotate(5deg);
+  
+}
+.system-build-sec .content:hover .image::before{
+
+    left: 0 !important;
+}
+/***************************************---//System Build Components Page---********************************************/
+/***************************************---Features System Page---********************************************/
+
+.features-sytem-sec .content {
+    
+    border-radius: 0 50px 0 50px;
+    height: 220px;
+}
+.features-sytem-sec .content .text {
+
+    margin-right:0 !important;
+    margin-left:30px !important;
+}
+/***************************************---//Features System Page---********************************************/
+/***************************************---Contact Us Page---***********************************************************/
+.contact-us-sec .contact-content .info-content span {
+
+    position: absolute;
+    left: 0px !important;
+    right: unset !important;
+
+}
+.contact-us-sec .contact-content .info-content span::before{
+
+    left: 0px;
+    right:unset !important;
+    border-right: 80px solid transparent;
+    border-left:unset !important;
+
+}
+
+/***************************************---//Contact Us Page---***********************************************************/
+
+
+/*--footer--*/
+
+footer .footer-top:before {
+
+    left:unset !important;
+    right: -20px;
+  
+}
+footer .footer-top .phone {
+   
+    transform: translate(-70px, 20px);
+}
+footer .footer-bottom .phone a i {
+
+    margin-left:0 !important;
+    margin-right: 15px !important;
+}
+/*--//footer--*/
+
+/*--scroll to top--*/
+.auto-scroll-to-top {
+   
+    left: 15px !important;
+    right:unset !important;
+}
+/*--//scroll to top--*/
+/***************************************---Register page---***********************************************************/
+.register-body .top-header ul > li .sub-menu{
+    right: 0 !important;
+    left: auto !important;
+
+}
+.register-body .top-header .top-nav-left {
+    float: right !important;
+}
+
+.register-sec .hospital-main h1 {
+    font-size: 32px;
+
+}
+.register-sec .register-form .custom-control-inline {
+    margin: 1rem 1.5rem 1rem 0 !important;
+}
+/***************************************---//Register page---***********************************************************/
+

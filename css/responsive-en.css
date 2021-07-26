@@ -1,0 +1,361 @@
+@media screen and  (max-width:320px){
+
+    /*--header--*/
+
+    .top-header .top-nav-left {
+        float: unset !important;
+       margin-right:0 !important; 
+    }
+   
+    .navbar-light .navbar-nav .nav-item ul .nav-item .nav-link i{
+
+        margin-left:0;
+        margin-right: 5px;
+      
+    }
+    /*--//header--*/
+    
+    /*--about pg--*/
+    .about-sec::before, 
+    .about-pg-sec .pg-1::before, 
+    .about-pg-sec .pg-3::before {
+        background-position: left 0%;
+     }
+     /*--//about pg--*/
+     /*--system build components pg--*/
+     .system-build-sec .content .image::before {
+        content: '';
+        position: absolute;
+        left: 1px;
+        bottom: -12px;
+        width: 26.5%;
+        height: 25px;
+        transform: rotate(-6.5deg);
+    }
+    .system-build-sec .content .image:after {
+        content: '';
+        position: absolute;
+        right: 0px;
+        bottom: -11px;
+        width: 74%;
+        height: 25px;
+        transform: rotate(2deg);
+    }
+   
+    /*--//system build components pg--*/
+    /*--footer--*/
+    footer .footer-top .phone a i {
+
+        margin-right: 5px;
+   
+   }
+    /*--//footer--*/
+
+    
+}
+@media screen and (max-width:375px) and (min-width:321px){
+
+     /*--header--*/
+
+     .top-header .top-nav-left {
+        float: unset !important;
+       margin-right:0 !important; 
+    }
+   
+    
+    .navbar-light .navbar-nav .nav-item ul .nav-item .nav-link i{
+
+        margin-left:0;
+        margin-right: 5px;
+      
+    }
+    /*--//header--*/
+    /*--about pg--*/
+    .about-sec::before ,
+    .about-pg-sec .pg-1::before,
+    .about-pg-sec .pg-3::before {
+        background-position: left 0%;
+     }
+     /*--//about pg--*/
+     /*--system build components pg--*/
+     .system-build-sec .content .image::before {
+        content: '';
+        position: absolute;
+        left: 1px;
+        bottom: -12px;
+        width: 26.5%;
+        height: 25px;
+        transform: rotate(-6.5deg);
+    }
+    .system-build-sec .content .image:after {
+        content: '';
+        position: absolute;
+        right: 0px;
+        bottom: -11px;
+        width: 74%;
+        height: 25px;
+        transform: rotate(2deg);
+    }
+   
+    /*--//system build components pg--*/
+    /*--footer--*/
+    footer .footer-top .phone a i {
+
+        margin-right: 5px;
+   
+   }
+    /*--//footer--*/
+
+
+}
+@media screen and (max-width:425px) and (min-width:376px){
+
+
+     /*--header--*/
+
+     .top-header .top-nav-left {
+        float: unset !important;
+       margin-right:0 !important; 
+    }
+    
+    .navbar-light .navbar-nav .nav-item ul .nav-item .nav-link i{
+
+        margin-left:0;
+        margin-right: 5px;
+      
+    }
+    /*--//header--*/
+
+    /*--about pg--*/
+
+    .about-sec::before ,
+    .about-pg-sec .pg-1::before, 
+    .about-pg-sec .pg-3::before {
+        background-position: left 0%;
+     }
+     /*--//about pg--*/
+     /*--system build components pg--*/
+     .system-build-sec .content .image::before {
+        content: '';
+        position: absolute;
+        left: 1px;
+        bottom: -12px;
+        width: 26.5%;
+        height: 25px;
+        transform: rotate(-6.5deg);
+    }
+    .system-build-sec .content .image:after {
+        content: '';
+        position: absolute;
+        right: 0px;
+        bottom: -11px;
+        width: 74%;
+        height: 25px;
+        transform: rotate(2deg);
+    }
+   
+    /*--//system build components pg--*/
+    /*--footer--*/
+    footer .footer-top .phone a i {
+
+        margin-right: 5px;
+   
+     }
+    /*--//footer--*/
+}
+@media screen and (max-width:575px) and (min-width:426px){
+    
+    /*--header--*/
+
+    .top-header .top-nav-left {
+        float: unset !important;
+       margin-right:0 !important; 
+    }
+   
+    .navbar-light .navbar-nav .nav-item ul .nav-item .nav-link i{
+
+        margin-left:0;
+        margin-right: 5px;
+      
+    }
+    /*--//header--*/
+
+    /*--about pg--*/
+    .about-sec::before,
+    .about-pg-sec .pg-1::before,
+     .about-pg-sec .pg-3::before {
+        background-position: left 0%;
+     }
+     /*--//about pg--*/
+     /*--system build components pg--*/
+     .system-build-sec .content .image::before {
+        content: '';
+        position: absolute;
+        left: 1px;
+        bottom: -12px;
+        width: 26.5%;
+        height: 25px;
+        transform: rotate(-6.5deg);
+    }
+    .system-build-sec .content .image:after {
+        content: '';
+        position: absolute;
+        right: 0px;
+        bottom: -11px;
+        width: 74%;
+        height: 25px;
+        transform: rotate(2deg);
+    }
+   
+    /*--//system build components pg--*/
+    
+}
+@media screen and (max-width:768px) and (min-width:576px){
+    /*--header--*/
+
+ 
+
+    .top-header .top-nav-left li a .line {
+        padding: 0 6px;
+    }
+
+   
+    .navbar-light .navbar-nav .nav-item ul .nav-item .nav-link i{
+
+        margin-left:0;
+        margin-right: 5px;
+      
+    }
+    /*--//header--*/
+   
+
+     /*--about--*/
+ 
+     .about-sec::before {
+         background-position: left 0;
+     }
+     /*--//about--*/
+     /*--about pg--*/
+
+     .about-pg-sec .pg-1::before, .about-pg-sec .pg-3::before {
+        background-position: left 0%;
+     }
+     /*--//about pg--*/
+     /*--system build components pg--*/
+     .system-build-sec .content .image::before {
+        content: '';
+        position: absolute;
+        left: 1px;
+        bottom: -12px;
+        width: 26.5%;
+        height: 25px;
+        transform: rotate(-6.5deg);
+    }
+    .system-build-sec .content .image:after {
+        content: '';
+        position: absolute;
+        right: 0px;
+        bottom: -11px;
+        width: 74%;
+        height: 25px;
+        transform: rotate(2deg);
+    }
+   
+    /*--//system build components pg--*/
+     
+ 
+}
+@media screen and (max-width:991px) and (min-width:769px){
+
+    /*--header--*/
+   
+       .navbar-light .navbar-nav .nav-item ul .nav-item .nav-link i{
+
+        margin-left:0;
+        margin-right: 5px;
+      
+    }
+    /*--//header--*/
+
+    
+
+    /*--about--*/
+
+    .about-sec::before {
+        background-position: left 10%;
+    }
+    /*--//about--*/
+
+    /*--about pg--*/
+
+    .about-pg-sec .pg-1::before, .about-pg-sec .pg-3::before {
+        background-position: left 0%;
+    }
+    /*--//about pg--*/
+
+    /*--system build components pg--*/
+     .system-build-sec .content .image::before {
+        content: '';
+        position: absolute;
+        left: 1px;
+        bottom: -12px;
+        width: 26.5%;
+        height: 25px;
+        transform: rotate(-6.5deg);
+    }
+    .system-build-sec .content .image:after {
+        content: '';
+        position: absolute;
+        right: 0px;
+        bottom: -11px;
+        width: 74%;
+        height: 25px;
+        transform: rotate(2deg);
+    }
+   
+    /*--//system build components pg--*/
+ 
+}
+@media screen and (max-width:1024px) and (min-width:992px){
+/*--header--*/
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    margin:0 ;
+    padding: .5rem 0.2rem
+
+}
+/*--//header--*/
+  /*--bk image--*/
+   .bk-image-sec .btn {
+    
+     transform: translateY(6px);
+   }
+   /*--//bk image--*/
+
+}
+@media screen and (max-width:1200px) and (min-width:1023px){
+    
+    
+    /*--header--*/
+   
+  .navbar-light .navbar-nav .nav-item .nav-link {
+      margin: 0 0.2rem;
+      padding: .5rem 0.2rem
+  }
+  
+  /*--//header--*/
+  
+  
+
+}
+@media screen and (max-width:1295px) and (min-width:1199px){
+
+    /*--header--*/
+   
+   .navbar-light .navbar-nav .nav-item .nav-link {
+       margin: 0 0.3rem;
+       padding: .5rem 0.3rem
+   }
+   
+   /*--//header--*/
+}
